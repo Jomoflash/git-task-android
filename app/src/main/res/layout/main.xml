@@ -3,8 +3,35 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:gravity="center"
-	android:background="#DFFDFA">
+	android:gravity="left"
+	android:background="#DFFDFA"
+	android:orientation="vertical"
+	android:paddingLeft="25dp"
+	android:paddingTop="40dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Name : Emmanuel James Igwe"
+		android:layout_margin="1dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Slack Username : Jomoflash"
+		android:layout_margin="1dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Start.Ng email : jomoflash22@gmail.com"
+		android:layout_margin="2dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Tracks : Front End, Back End, Mobile, Coding"
+		android:layout_margin="1dp"/>
 
 </LinearLayout>
 
